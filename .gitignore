@@ -1,0 +1,13 @@
+# Root workspace artifacts
+/node_modules/
+/package-lock.json
+/package.json
+
+# Root environment files
+/.env
+/.env.*
+!/.env.example
+
+# OS/editor noise
+.DS_Store
+.vscode/

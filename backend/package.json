@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "node --env-file=.env --import tsx index.ts",
     "dev:bun": "bun --watch index.ts",
-    "start": "node --env-file=.env --import tsx index.ts",
+    "start": "node --import tsx index.ts",
     "build": "echo 'No build step required for ts-node/tsx runtime'"
   },
   "devDependencies": {
